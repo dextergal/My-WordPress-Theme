@@ -1,0 +1,23 @@
+/*
+Theme Name: Dexter Gal Portfolio
+Theme URI: http://dextergal.online
+Author: Dexter Gal
+Author URI: http://dextergal.online
+Description: A portfolio theme for Dexter Gal
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: dextergal-portfolio
+*/
+.wpforms-container {
+    background: #fff;
+    margin: 0;
+    padding: 2em;
+    width: 100%;
+}
+.wpforms-container .wpforms-field-large {
+    height: 44px;
+    padding: 0 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc !important;
+}
