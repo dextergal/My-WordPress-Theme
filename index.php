@@ -457,7 +457,6 @@
         <div class="row no-gutters block-9">
           <div class="col-md-6 order-md-last d-flex">
             <?php echo do_shortcode('[wpforms id="4"]'); ?>
-            <?php echo do_shortcode('[instagram-feed]'); ?>
           
           </div>
 
@@ -467,7 +466,19 @@
         </div>
       </div>
     </section>
-		
+	<script>
+  fetch('https://graph.instagram.com/me/media?fields=id,caption,media_type,media_url,thumbnail_url,permalink&access_token=YOUR_ACCESS_TOKEN')
+    .then(response => response.json())
+    .then(data => {
+      let feed = '';
+      data.data.forEach(post => {
+        feed += `<a href="${post.permalink}" target="_blank"><img src="${post.media_url}" alt="${post.caption}"></a>`;
+      });
+      document.getElementById('instagram-feed').innerHTML = feed;
+    });
+</script>
+<div id="instagram-feed"></div>
+
 
     <footer class="ftco-footer ftco-section">
       <div class="container">
