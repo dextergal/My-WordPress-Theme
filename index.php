@@ -87,7 +87,7 @@
           <div class="col-md-12 heading-section text-center ftco-animate">
           	<h2 class="big big-2">What I Do</h2>
             <h3 class="mb-4">What I Do</h3>
-            <p>From development to optimization, I offer services that ensure your website stands out and performs flawlesslys</p>
+            <p>From development to optimization, I offer services that ensure your website stands out and performs flawlessly</p>
           </div>
         </div>
     		<div class="row">
