@@ -467,7 +467,7 @@
       </div>
     </section>
 	<script>
-  fetch('https://graph.instagram.com/me/media?fields=id,caption,media_type,media_url,thumbnail_url,permalink&access_token=YOUR_ACCESS_TOKEN')
+  fetch('https://graph.instagram.com/me/media?fields=id,caption,media_type,media_url,thumbnail_url,permalink&access_token=IGQVJXcXZA3R1p1UDI2OTlxRFpfdWdrYy1WTU0wRmlhTGVsTDRpcWxLRnJMYWQwQlZAUOURUZAnNIR3ppZA1pjVlRQWGFSTXZAXSzRyZADQ1R3hYcjFOTkFSMWJlV1ZAua1ZAYM215MGxjOGVn')
     .then(response => response.json())
     .then(data => {
       let feed = '';
