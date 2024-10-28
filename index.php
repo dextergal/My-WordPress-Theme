@@ -40,7 +40,7 @@
 	    </div>
 	  </nav>
 	  <section id="about-section" class="hero">
-	  	 <h1 style="display: none;" class="mb-4 mt-3">I'm <span>Dexter Gals</span></h1>
+	  	 <h1 style="display: none;" class="mb-4 mt-3">I'm <span>Dexter Gals wala lang</span></h1>
 		  <div class="home-slider  owl-carousel" id="ftco-nav">
 	      <div class="slider-item ">
 	      	<div class="overlay"></div>
