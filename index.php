@@ -467,16 +467,30 @@
       </div>
     </section>
 	<script>
-  fetch('https://graph.instagram.com/me/media?fields=id,caption,media_type,media_url,thumbnail_url,permalink&access_token=IGQVJXcXZA3R1p1UDI2OTlxRFpfdWdrYy1WTU0wRmlhTGVsTDRpcWxLRnJMYWQwQlZAUOURUZAnNIR3ppZA1pjVlRQWGFSTXZAXSzRyZADQ1R3hYcjFOTkFSMWJlV1ZAua1ZAYM215MGxjOGVn')
-    .then(response => response.json())
-    .then(data => {
-      let feed = '';
-      data.data.forEach(post => {
-        feed += `<a href="${post.permalink}" target="_blank"><img src="${post.media_url}" alt="${post.caption}"></a>`;
-      });
-      document.getElementById('instagram-feed').innerHTML = feed;
-    });
+    fetch('https://graph.instagram.com/me/media?fields=id,caption,media_type,media_url,thumbnail_url,permalink&access_token=YOUR_ACCESS_TOKEN')
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok ' + response.statusText);
+            }
+            return response.json();
+        })
+        .then(data => {
+            console.log(data); // Log the response
+            let feed = '';
+            if (data.data && Array.isArray(data.data)) { // Check if data.data is defined and is an array
+                data.data.forEach(post => {
+                    feed += `<a href="${post.permalink}" target="_blank"><img src="${post.media_url}" alt="${post.caption}"></a>`;
+                });
+            } else {
+                console.error('No posts found or data.data is not an array:', data);
+            }
+            document.getElementById('instagram-feed').innerHTML = feed;
+        })
+        .catch(error => {
+            console.error('Fetch error:', error);
+        });
 </script>
+
 <div id="instagram-feed"></div>
 
 
