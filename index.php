@@ -466,33 +466,7 @@
         </div>
       </div>
     </section>
-	<script>
-    fetch('https://graph.instagram.com/me/media?fields=id,caption,media_type,media_url,thumbnail_url,permalink&access_token=IGQVJWem91R0NDdElERWNWM3VnNFdET2szMTVYbjVFQjkwSXNfQm1CZAnVra3ZA5bHdVQjZANZAmtqX2xZAOWtiUmdwa3JwUktQbnpyVzBBbEh1eTFHYkVnUzZA4aDNkV0tqcGZAjZAXR4LUxR')
-        .then(response => {
-            if (!response.ok) {
-                throw new Error('Network response was not ok ' + response.statusText);
-            }
-            return response.json();
-        })
-        .then(data => {
-            console.log(data); // Log the response
-            let feed = '';
-            if (data.data && Array.isArray(data.data)) { // Check if data.data is defined and is an array
-                data.data.forEach(post => {
-                    feed += `<a href="${post.permalink}" target="_blank"><img src="${post.media_url}" alt="${post.caption}"></a>`;
-                });
-            } else {
-                console.error('No posts found or data.data is not an array:', data);
-            }
-            document.getElementById('instagram-feed').innerHTML = feed;
-        })
-        .catch(error => {
-            console.error('Fetch error:', error);
-        });
-</script>
-
-<div id="instagram-feed"></div>
-
+		
 
     <footer class="ftco-footer ftco-section">
       <div class="container">
