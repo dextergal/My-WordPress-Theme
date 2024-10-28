@@ -467,7 +467,7 @@
       </div>
     </section>
 	<script>
-    fetch('https://graph.instagram.com/me/media?fields=id,caption,media_type,media_url,thumbnail_url,permalink&access_token=YOUR_ACCESS_TOKEN')
+    fetch('https://graph.instagram.com/me/media?fields=id,caption,media_type,media_url,thumbnail_url,permalink&access_token=IGQVJWem91R0NDdElERWNWM3VnNFdET2szMTVYbjVFQjkwSXNfQm1CZAnVra3ZA5bHdVQjZANZAmtqX2xZAOWtiUmdwa3JwUktQbnpyVzBBbEh1eTFHYkVnUzZA4aDNkV0tqcGZAjZAXR4LUxR')
         .then(response => {
             if (!response.ok) {
                 throw new Error('Network response was not ok ' + response.statusText);
