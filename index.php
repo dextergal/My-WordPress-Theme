@@ -92,94 +92,94 @@
         </div>
     		<div class="row">
 					<div class="col-md-4 text-center d-flex ftco-animate">
-						<a href="#" class="services-1">
+						<div class="services-1">
 							<span class="icon"><i class="fas fa-code"></i></span>
 							<div class="desc">
 								<h3 class="mb-5">WordPress Development</h3>
 							</div>
-						</a>
+						</div>
 					</div>
 					<div class="col-md-4 text-center d-flex ftco-animate">
-						<a href="#" class="services-1">
+						<div class="services-1">
 							<span class="icon"><i class="fas fa-paint-roller"></i></span>
 							<div class="desc">
 								<h3 class="mb-5">Theme Customization</h3>
 							</div>
-						</a>
+						</div>
 					</div>
 					<div class="col-md-4 text-center d-flex ftco-animate">
-						<a href="#" class="services-1">
+						<div class="services-1">
 							<span class="icon"><i class="fas fa-cogs"></i></span>
 							<div class="desc">
 								<h3 class="mb-5">Plugin Development
 								</h3>
 							</div>
-						</a>
+						</div>
 					</div>
 
 					<div class="col-md-4 text-center d-flex ftco-animate">
-						<a href="#" class="services-1">
+						<div class="services-1">
 							<span class="icon"><i class="fas fa-shopping-cart"></i></span>
 							<div class="desc">
 								<h3 class="mb-5">E-commerce Solutions</h3>
 							</div>
-						</a>
+						</div>
 					</div>
 					<div class="col-md-4 text-center d-flex ftco-animate">
-						<a href="#" class="services-1">
+						<div class="services-1">
 							<span class="icon"><i class="fas fa-tools"></i></span>
 							<div class="desc">
 								<h3 class="mb-5">Website Maintenance and Support</h3>
 							</div>
-						</a>
+						</div>
 					</div>
 					<div class="col-md-4 text-center d-flex ftco-animate">
-						<a href="#" class="services-1">
+						<div class="services-1">
 							<span class="icon"><i class="fas fa-tachometer-alt"></i></span>
 							<div class="desc">
 								<h3 class="mb-5">Performance Optimization</h3>
 							</div>
-						</a>
+						</div>
 					</div>
 					<div class="col-md-4 text-center d-flex ftco-animate">
-						<a href="#" class="services-1">
+						<div class="services-1">
 							<span class="icon"><i class="fas fa-search"></i></span>
 							<div class="desc">
 								<h3 class="mb-5">SEO Optimization</h3>
 							</div>
-						</a>
+						</div>
 					</div>
 					<div class="col-md-4 text-center d-flex ftco-animate">
-						<a href="#" class="services-1">
+						<div class="services-1">
 							<span class="icon"><i class="fas fa-network-wired"></i></span>
 							<div class="desc">
 								<h3 class="mb-5">API Integrations</h3>
 							</div>
-						</a>
+						</div>
 					</div>
 					<div class="col-md-4 text-center d-flex ftco-animate">
-						<a href="#" class="services-1">
+						<div class="services-1">
 							<span class="icon"><i class="fas fa-clipboard-check"></i></span>
 							<div class="desc">
 								<h3 class="mb-5">Website Audits</h3>
 							</div>
-						</a>
+						</div>
 					</div>
 					<div class="col-md-4 text-center d-flex ftco-animate">
-						<a href="#" class="services-1">
+						<div class="services-1">
 							<span class="icon"><i class="fas fa-file-alt"></i></span>
 							<div class="desc">
 								<h3 class="mb-5">Content Management</h3>
 							</div>
-						</a>
+						</div>
 					</div>
 					<div class="col-md-4 text-center d-flex ftco-animate">
-						<a href="#" class="services-1">
+						<div class="services-1">
 							<span class="icon"><i class="fas fa-cogs"></i></span>
 							<div class="desc">
 								<h3 class="mb-5">Website Administrator</h3>
 							</div>
-						</a>
+						</div>
 					</div>
 				</div>
     	</div>
