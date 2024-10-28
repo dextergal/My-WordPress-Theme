@@ -457,6 +457,7 @@
         <div class="row no-gutters block-9">
           <div class="col-md-6 order-md-last d-flex">
             <?php echo do_shortcode('[wpforms id="4"]'); ?>
+            <?php echo do_shortcode('[instagram-feed]'); ?>
           
           </div>
 
